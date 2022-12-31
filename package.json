@@ -1,0 +1,30 @@
+{
+  "name": "hello-websockets-binary",
+  "version": "0.0.1",
+  "description": "A simple WebSockets app built on Express, instantly up and running.",
+  "homepage": "https://hello-websockets-binary.glitch.me/",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "websockets"
+  ],
+  "author": "pschroen",
+  "private": true,
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-websockets-binary"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-ws": "^5.0.2"
+  }
+}
