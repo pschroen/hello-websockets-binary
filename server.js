@@ -19,19 +19,19 @@ app.ws('/', (ws, request) => {
 });
 
 setInterval(() => {
-  const color = Math.floor(Math.random() * 0xffffff);
+	const color = Math.floor(Math.random() * 0xffffff);
 
-  const data = Buffer.allocUnsafe(1 + 4);
-  data.writeUInt8(0, 0);
-  data.writeUInt32BE(color, 1);
+	const data = Buffer.allocUnsafe(1 + 4);
+	data.writeUInt8(0, 0);
+	data.writeUInt32BE(color, 1);
 
-  aWss.clients.forEach(client => {
-    client.send(data);
-  });
+	aWss.clients.forEach(client => {
+		client.send(data);
+	});
 }, 1000);
 
 //
 
 const listener = app.listen(process.env.PORT, () => {
-  console.log(`Your app is listening on port ${listener.address().port}`);
+	console.log(`Your app is listening on port ${listener.address().port}`);
 });

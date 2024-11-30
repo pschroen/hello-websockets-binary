@@ -27,7 +27,7 @@ export default [
       'comma-spacing': ['error', { 'before': false, 'after': true }],
       'curly': ['error', 'multi-line'],
       'eqeqeq': ['error', 'always'],
-      'indent': ['error', 2, { 'SwitchCase': 1, 'ignoredNodes': ['TemplateLiteral *'] }],
+      'indent': ['error', 'tab', { 'SwitchCase': 1, 'ignoredNodes': ['TemplateLiteral *'] }],
       'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
       'keyword-spacing': ['error', { 'before': true, 'after': true }],
       'linebreak-style': ['error', 'unix'],
