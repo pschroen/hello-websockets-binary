@@ -5,9 +5,9 @@
  */
 
 import express from 'express';
-const app = express();
-
 import enableWs from 'express-ws';
+
+const app = express();
 const expressWs = enableWs(app);
 const aWss = expressWs.getWss('/');
 
