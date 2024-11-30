@@ -18,8 +18,6 @@ This is a starter app based on the binary websockets implementation of Multiuser
 
 Intended for high performance, low latency, and an event-based data structure.
 
-Hope to see people remixing this so we can see more creative websocket sites!
-
-Cheers! 🍻
+<br>
 
 [pschroen](https://ufo.ai/)
