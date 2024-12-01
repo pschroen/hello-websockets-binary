@@ -1,6 +1,6 @@
 {
   "name": "hello-websockets-binary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple WebSockets app built on Express, instantly up and running.",
   "homepage": "https://hello-websockets-binary.glitch.me/",
   "keywords": [
