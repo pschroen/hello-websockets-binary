@@ -19,9 +19,6 @@
     "url": "https://github.com/pschroen/hello-websockets-binary/issues"
   },
   "license": "ISC",
-  "engines": {
-    "node": "16.x"
-  },
   "type": "module",
   "main": "server.js",
   "scripts": {
