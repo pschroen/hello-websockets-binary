@@ -2,15 +2,15 @@
 
 A server that serves a webpage, its resources, and some data.
 
-[https://hello-websockets-binary.glitch.me/](https://hello-websockets-binary.glitch.me/)
+[https://hello-websockets-binary.cyberspace.app/](https://hello-websockets-binary.cyberspace.app/)
 
 #### See also
 
 JSON version:  
-[https://glitch.com/edit/#!/hello-websockets-json](https://glitch.com/edit/#!/hello-websockets-json)
+[https://github.com/pschroen/hello-websockets-json](https://github.com/pschroen/hello-websockets-json)
 
 Mr.doob's Multiuser Sketchpad rework:  
-[https://glitch.com/edit/#!/multiuser-sketchpad](https://glitch.com/edit/#!/multiuser-sketchpad)
+[https://github.com/pschroen/multiuser-sketchpad](https://github.com/pschroen/multiuser-sketchpad)
 
 #### Dev notes
 

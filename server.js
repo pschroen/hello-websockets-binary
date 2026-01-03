@@ -1,7 +1,5 @@
 /**
  * @author pschroen / https://ufo.ai/
- *
- * Remix of https://glitch.com/edit/#!/hello-express
  */
 
 import express from 'express';
